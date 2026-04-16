@@ -10,7 +10,7 @@ sed -i 's/#\(.*\/community\)/\1/' /etc/apk/repositories
 
 apk update
 apk upgrade
-apk add atuin atuin-zsh-completion atuin-zsh-plugin bash bat btop curl docker docker-cli-compose eza git github-cli intel-media-driver lazygit lazydocker mesa-dri-gallium mesa-va-gallium mesa-vulkan-intel nano nano-syntax nfs-utils nodejs npm shadow starship-zsh-plugin tailscale zsh zsh-autosuggestions zsh-syntax-highlighting
+apk add atuin atuin-zsh-completion atuin-zsh-plugin bash bat btop curl docker docker-cli-compose eza git github-cli intel-media-driver iproute2-ss lazygit lazydocker mesa-dri-gallium mesa-va-gallium mesa-vulkan-intel nano nano-syntax nfs-utils nodejs npm shadow starship-zsh-plugin tailscale zsh zsh-autosuggestions zsh-syntax-highlighting
 
 rc-update add docker
 rc-service docker start
